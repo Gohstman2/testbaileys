@@ -1,0 +1,17 @@
+{
+  "name": "whatsapp-bot-server",
+  "version": "1.0.0",
+  "description": "Serveur Node.js avec Baileys pour gérer pairing code et envoi via API Python",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "TonNom",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "baileys": "^5.0.3",
+    "express": "^4.18.2"
+  }
+}
